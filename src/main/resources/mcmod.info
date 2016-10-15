@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "serverauthmod",
+  "name": "Server Authentication Mod",
+  "description": "This mod allows dedicated server to have a custom in-game authentication system for 'online-mode=false' servers.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
+  "url": "http://mcrealkingdoms.siberos.net/",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["Asier Paz"],
+  "credits": "",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
