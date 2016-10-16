@@ -19,6 +19,6 @@ class ClientProxy extends CommonProxy{
 
   @EventHandler
   override def postInitialization(event: FMLPostInitializationEvent): Unit = {
-
+    println("ClientProxy Loaded")
   }
 }

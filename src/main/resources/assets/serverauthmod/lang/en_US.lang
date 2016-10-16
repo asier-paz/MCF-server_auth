@@ -1,1 +1,2 @@
 # English US Language for Server Auth Mod
+login.auth_instructions_msg={0]In order to be able to play you need to authenticate yourself.You can authenticate by typing §e/auth your_password_here

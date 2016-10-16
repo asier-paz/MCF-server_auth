@@ -1,5 +1,6 @@
 package net.siberos.mcrealkingdoms.serverauthmod.proxy
 
+import net.minecraftforge.common.MinecraftForge
 import net.minecraftforge.fml.common.Mod.EventHandler
 import net.minecraftforge.fml.common.event.{FMLInitializationEvent, FMLPostInitializationEvent, FMLPreInitializationEvent}
 
@@ -20,7 +21,10 @@ class CommonProxy {
 
   @EventHandler
   def postInitialization(event: FMLPostInitializationEvent): Unit = {
-
+    MinecraftForge.EVENT_BUS.register(new CommonProxyEventHandler())
+    println("CommonProxy Loaded")
   }
+
+
 
 }
